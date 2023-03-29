@@ -1,0 +1,1 @@
+pyinstaller --onefile .\screen_saver.py

@@ -16,7 +16,7 @@ y = height//2
 clock = pygame.time.Clock()
 while True:
     for event in pygame.event.get():
-        if event.type == pygame.QUIT:
+        if event.type == pygame.MOUSEBUTTONDOWN or event.type==pygame.KEYDOWN:
             pygame.quit()
             sys.exit()
 
